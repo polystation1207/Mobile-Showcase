@@ -8,7 +8,8 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] Rigidbody2D rb2d;
     [SerializeField] FixedJoystick joystick;
     [SerializeField] float moveSpeed = 2;
-    [Tooltip("True if the game is top dwon, false if a platformer")]
+    [Tooltip("True if the game is " +
+        "top dwon, false if a platformer")]
     [SerializeField] bool isTopDown = true;
     [SerializeField] bool allowKeyControls = true;
     [SerializeField] float jumpForce = 5.0f;
