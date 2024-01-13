@@ -307,7 +307,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Ammo:'
+  m_text: 'Ammo: 20'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: e98eca4d126820045a083cd2f283da42, type: 2}
   m_sharedMaterial: {fileID: -4115358910731977818, guid: e98eca4d126820045a083cd2f283da42, type: 2}
