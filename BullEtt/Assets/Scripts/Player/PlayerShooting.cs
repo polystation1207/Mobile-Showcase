@@ -91,7 +91,6 @@ public class PlayerShooting : MonoBehaviour
                 bulletCount--;
                 myText.text = "Ammo: " + bulletCount;
                 timer = 1;
-                myAnimator.SetTrigger("isShooting");
                 Camera.main.GetComponent<AudioSource>().PlayOneShot(shootingSound);
                 GameObject bullet = Instantiate(prefab, transform.position, Quaternion.identity);
                 bullet.GetComponent<Rigidbody2D>().velocity = new Vector2(x, y) * shootSpeed;

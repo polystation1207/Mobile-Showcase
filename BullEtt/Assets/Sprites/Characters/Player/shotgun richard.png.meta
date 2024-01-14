@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c7546df964070e94e8a653d73735da73
+guid: d5ea4c3dc828034409ea00bc17cdf040
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -123,13 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Bull Ett color_0
+      name: shotgun richard_0
       rect:
         serializedVersion: 2
-        x: 14
-        y: 104
-        width: 16
-        height: 30
+        x: 0
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,20 +137,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5bdf0c9e427a374409023073c5f43562
-      internalID: 1370465873
+      spriteID: d0753e8b2e0fdb4418762e4fd92b1349
+      internalID: -1967425429
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bull Ett color_1
+      name: shotgun richard_1
       rect:
         serializedVersion: 2
-        x: 41
-        y: 104
-        width: 23
-        height: 28
+        x: 64
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,20 +158,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c58dac54edc9b254391253b18f8b5168
-      internalID: 18442749
+      spriteID: 39f9b7b89c9460349afbd78f78d53d97
+      internalID: 1513997380
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bull Ett color_2
+      name: shotgun richard_2
       rect:
         serializedVersion: 2
-        x: 75
-        y: 104
-        width: 23
-        height: 29
+        x: 128
+        y: 128
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,20 +179,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 064834c7b882e6d429ac0b7e3ba5227e
-      internalID: -1828446614
+      spriteID: c1e2a4da20a45f34a9de4192a81649e9
+      internalID: 1456011030
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bull Ett color_3
+      name: shotgun richard_3
       rect:
         serializedVersion: 2
-        x: 7
-        y: 70
-        width: 23
-        height: 30
+        x: 0
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,20 +200,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ad3e83177de72a24d8e83301617e97b1
-      internalID: 1173236618
+      spriteID: 6907b4b3136577047ba3361fb3095bd3
+      internalID: -85726209
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bull Ett color_4
+      name: shotgun richard_4
       rect:
         serializedVersion: 2
-        x: 41
-        y: 70
-        width: 23
-        height: 30
+        x: 64
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -221,20 +221,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: db029d64bf3056c479d3cc710210941c
-      internalID: -702542423
+      spriteID: 80c9f62a16bb5834b8d58ff6627cf481
+      internalID: -1361240256
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bull Ett color_5
+      name: shotgun richard_5
       rect:
         serializedVersion: 2
-        x: 75
-        y: 70
-        width: 23
-        height: 30
+        x: 128
+        y: 64
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -242,20 +242,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5efc9dc6d097d7641828bb8a24dc228f
-      internalID: -80561317
+      spriteID: e171bdfd806c46b4cb3fe0fabd8b364e
+      internalID: 606075609
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bull Ett color_6
+      name: shotgun richard_6
       rect:
         serializedVersion: 2
-        x: 7
-        y: 36
-        width: 23
-        height: 30
+        x: 0
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -263,20 +263,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 957b750e9448ae548a8ad8deefc1e58c
-      internalID: 1875163418
+      spriteID: 47e0bf9e91f07cb4390d95ed587cbad0
+      internalID: 251961543
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bull Ett color_7
+      name: shotgun richard_7
       rect:
         serializedVersion: 2
-        x: 40
-        y: 36
-        width: 24
-        height: 30
+        x: 64
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -284,71 +284,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 71661bdc67dbc49409f4ecc76ecfc92a
-      internalID: 1143850099
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bull Ett color_8
-      rect:
-        serializedVersion: 2
-        x: 73
-        y: 36
-        width: 25
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7e78824c031c46643b1119108822e358
-      internalID: -512622332
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bull Ett color_9
-      rect:
-        serializedVersion: 2
-        x: 7
-        y: 2
-        width: 23
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 48898aecc525a8b4c98b2d7b908c19f3
-      internalID: 98833229
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bull Ett color_10
-      rect:
-        serializedVersion: 2
-        x: 39
-        y: 2
-        width: 25
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 43bbeb5c32febf0458e7c12115abfc3e
-      internalID: 1134141719
+      spriteID: 9eca879d115b4fa49abd72b062d0cfa4
+      internalID: -1396875873
       vertices: []
       indices: 
       edges: []
@@ -364,17 +301,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Bull Ett color_0: 1370465873
-      Bull Ett color_1: 18442749
-      Bull Ett color_10: 1134141719
-      Bull Ett color_2: -1828446614
-      Bull Ett color_3: 1173236618
-      Bull Ett color_4: -702542423
-      Bull Ett color_5: -80561317
-      Bull Ett color_6: 1875163418
-      Bull Ett color_7: 1143850099
-      Bull Ett color_8: -512622332
-      Bull Ett color_9: 98833229
+      shotgun richard_0: -1967425429
+      shotgun richard_1: 1513997380
+      shotgun richard_2: 1456011030
+      shotgun richard_3: -85726209
+      shotgun richard_4: -1361240256
+      shotgun richard_5: 606075609
+      shotgun richard_6: 251961543
+      shotgun richard_7: -1396875873
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
