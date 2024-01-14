@@ -4422,7 +4422,6 @@ GameObject:
   - component: {fileID: 1433559791}
   - component: {fileID: 1433559793}
   - component: {fileID: 1433559794}
-  - component: {fileID: 1433559795}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -4534,7 +4533,7 @@ MonoBehaviour:
   joystick: {fileID: 1964589431}
   moveSpeed: 8
   isTopDown: 1
-  allowKeyControls: 0
+  allowKeyControls: 1
   jumpForce: 20
   mobileCanvas: {fileID: 643926841}
 --- !u!61 &1433559791
@@ -4645,22 +4644,6 @@ MonoBehaviour:
   health: 6
   myText: {fileID: 1717479014}
   loadDelay: 1
---- !u!114 &1433559795
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1433559786}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a309b1dc106edc54cbcd9d08b33c06cf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rb2d: {fileID: 0}
-  runSpeed: 5
-  moveInput: {x: 0, y: 0}
-  myAnimator: {fileID: 0}
 --- !u!1001 &1441913322
 PrefabInstance:
   m_ObjectHideFlags: 0
