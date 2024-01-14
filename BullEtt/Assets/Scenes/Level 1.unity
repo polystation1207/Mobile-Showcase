@@ -1551,7 +1551,7 @@ Transform:
   m_GameObject: {fileID: 985568423}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.912044, y: 0.6853653, z: -1.9740528}
+  m_LocalPosition: {x: -4.912044, y: 0.6853653, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -5797,6 +5797,10 @@ GameObject:
   - component: {fileID: 1538435249}
   - component: {fileID: 1538435252}
   - component: {fileID: 1538435251}
+  - component: {fileID: 1538435253}
+  - component: {fileID: 1538435256}
+  - component: {fileID: 1538435255}
+  - component: {fileID: 1538435254}
   m_Layer: 0
   m_Name: Mafia
   m_TagString: Enemy
@@ -5865,7 +5869,7 @@ Transform:
   m_GameObject: {fileID: 1538435248}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.545044, y: -0.8013653, z: 1.9740528}
+  m_LocalPosition: {x: 8.91, y: 0.14, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5885,8 +5889,8 @@ Rigidbody2D:
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_AngularDrag: 0
+  m_GravityScale: 400
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -5897,7 +5901,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &1538435252
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5930,7 +5934,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.18636113, y: 0.12282884}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -5941,8 +5945,80 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.5, y: 2.5}
+  m_Size: {x: 1.026055, y: 1.8731496}
   m_EdgeRadius: 0
+--- !u!95 &1538435253
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1538435248}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: bd5ac7ca257042c4f87279b8cec1736b, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1538435254
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1538435248}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5994cf53d49272f49a3c0fa13f02cd5e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shootDelay: 0.5
+  shootRange: 7
+  bulletSpeed: 2
+  prefab: {fileID: 6737360954235947119, guid: bc6550302c73d11479a1206dd530e679, type: 3}
+  target: {fileID: 1433559786}
+  bulletLifetime: 2
+  predictiveShoot: 1
+  predictiveLead: 1
+  enemyShootSound: {fileID: 0}
+--- !u!114 &1538435255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1538435248}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 689d57a6149711f41bb4333f00623c8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 1433559786}
+  chaseDistance: 10
+  moveSpeed: 10
+--- !u!114 &1538435256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1538435248}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5d3e7140af5e684a857c53c2baeafff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyHealth: 10
+  prefab: {fileID: 0}
+  dropsItem: 0
 --- !u!1 &1616224745
 GameObject:
   m_ObjectHideFlags: 0
