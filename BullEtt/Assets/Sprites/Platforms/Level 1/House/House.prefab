@@ -287,6 +287,16 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741826
+  - first: {x: 2, y: 3, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 20
+      m_TileSpriteIndex: 2
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741826
   m_AnimatedTiles: {}
   m_TileAssetArray:
   - m_RefCount: 1
@@ -329,12 +339,14 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: 21ec02604693ca748b8b57230be33622, type: 2}
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: 98e064c30c8a0074bb6b1135200df747, type: 2}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: 41fd8e422e06ee447b0129bf7b6d7b50, type: 2}
   m_TileSpriteArray:
   - m_RefCount: 1
     m_Data: {fileID: -1287965002, guid: 5d54e7f32a4de2346b5e024406703253, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: 1517575987, guid: 5d54e7f32a4de2346b5e024406703253, type: 3}
-  - m_RefCount: 1
+  - m_RefCount: 2
     m_Data: {fileID: 72089060, guid: 5d54e7f32a4de2346b5e024406703253, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: -1242991831, guid: 5d54e7f32a4de2346b5e024406703253, type: 3}
@@ -368,10 +380,8 @@ Tilemap:
     m_Data: {fileID: -1710001501, guid: 5d54e7f32a4de2346b5e024406703253, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: 961427541, guid: 5d54e7f32a4de2346b5e024406703253, type: 3}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
   m_TileMatrixArray:
-  - m_RefCount: 20
+  - m_RefCount: 21
     m_Data:
       e00: 1
       e01: 0
@@ -390,10 +400,8 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 20
+  - m_RefCount: 21
     m_Data: {r: 1, g: 1, b: 1, a: 1}
-  - m_RefCount: 0
-    m_Data: {r: -3976.0586, g: -3976.0586, b: -3976.0586, a: -3976.0586}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -467,7 +475,7 @@ TilemapRenderer:
   m_Mode: 0
   m_DetectChunkCullingBounds: 0
   m_MaskInteraction: 0
---- !u!114 &8476099094770382681
+--- !u!114 &7969030240625706880
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

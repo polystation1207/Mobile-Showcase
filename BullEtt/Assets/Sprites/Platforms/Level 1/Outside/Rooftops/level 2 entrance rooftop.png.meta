@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 3e4762333b289b4488728f4b54316a80
+guid: 7a944879b0a3b644187505b467d2017d
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 31
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -123,7 +123,70 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Rooftops_0
+      name: level 2 entrance rooftop_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6d841edd91cd0c449a3a3dd00078e89
+      internalID: -90982714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: level 2 entrance rooftop_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d42db8aff7c5cc647861d8c9fb1218ab
+      internalID: -1610721286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: level 2 entrance rooftop_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 726892d2fbe820c49957bd40fbc89a3f
+      internalID: -1861629002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: level 2 entrance rooftop_3
       rect:
         serializedVersion: 2
         x: 0
@@ -137,14 +200,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7702bdadfe84ec24495cc7e9d1c1f364
-      internalID: -400457571
+      spriteID: 66c9add044ad87942ab25cad39cbf80e
+      internalID: 615448659
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Rooftops_1
+      name: level 2 entrance rooftop_4
       rect:
         serializedVersion: 2
         x: 32
@@ -158,14 +221,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 29cb94c0fc2ddbd4b88213af8b105655
-      internalID: 957835994
+      spriteID: 683180adc29574543be87df50f783742
+      internalID: -1127076539
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Rooftops_2
+      name: level 2 entrance rooftop_5
       rect:
         serializedVersion: 2
         x: 64
@@ -179,14 +242,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d0fe5b891ad0e744a95a9597717e7e2b
-      internalID: -689734947
+      spriteID: 00d478c4f99794649b3e678e0b084519
+      internalID: 1908089490
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Rooftops_3
+      name: level 2 entrance rooftop_6
       rect:
         serializedVersion: 2
         x: 0
@@ -200,14 +263,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 87e236810ffa6ac4c8bb023989ef40e1
-      internalID: 92104940
+      spriteID: 78b9e4820fd8c6d44a3abdff1a4f2902
+      internalID: 1523322926
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Rooftops_4
+      name: level 2 entrance rooftop_7
       rect:
         serializedVersion: 2
         x: 32
@@ -221,14 +284,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 59e53edb0defa4f4a88ad8abc685e7c0
-      internalID: -1982157065
+      spriteID: 0a866722bc609be4abf0ad55742819e4
+      internalID: 1658108182
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Rooftops_5
+      name: level 2 entrance rooftop_8
       rect:
         serializedVersion: 2
         x: 64
@@ -242,14 +305,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 764ded4fe04b053488d9000de2353723
-      internalID: 573082955
+      spriteID: 58e02393abf6fb244bd4e85434cc53c5
+      internalID: -1226805044
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Rooftops_6
+      name: level 2 entrance rooftop_9
       rect:
         serializedVersion: 2
         x: 0
@@ -263,14 +326,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 56637ff811ab56545ad6fd9b0500ad16
-      internalID: -976192383
+      spriteID: b6d07fec8d3dc1d44a0a08fda7f7a86f
+      internalID: 1547499481
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Rooftops_7
+      name: level 2 entrance rooftop_10
       rect:
         serializedVersion: 2
         x: 32
@@ -284,14 +347,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 68c13d5574798ae46b033979852503a4
-      internalID: 1646140479
+      spriteID: d70ea23787548f34996cb4f02b7273ed
+      internalID: 1667184662
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Rooftops_8
+      name: level 2 entrance rooftop_11
       rect:
         serializedVersion: 2
         x: 64
@@ -305,8 +368,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d7cc264dd1bdb124b8f5af9aeaaabe7d
-      internalID: 1148261469
+      spriteID: e8aff52295620374a8cffb600171460e
+      internalID: -20039419
       vertices: []
       indices: 
       edges: []
@@ -322,15 +385,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Rooftops_0: -400457571
-      Rooftops_1: 957835994
-      Rooftops_2: -689734947
-      Rooftops_3: 92104940
-      Rooftops_4: -1982157065
-      Rooftops_5: 573082955
-      Rooftops_6: -976192383
-      Rooftops_7: 1646140479
-      Rooftops_8: 1148261469
+      level 2 entrance rooftop_0: -90982714
+      level 2 entrance rooftop_1: -1610721286
+      level 2 entrance rooftop_10: 1667184662
+      level 2 entrance rooftop_11: -20039419
+      level 2 entrance rooftop_2: -1861629002
+      level 2 entrance rooftop_3: 615448659
+      level 2 entrance rooftop_4: -1127076539
+      level 2 entrance rooftop_5: 1908089490
+      level 2 entrance rooftop_6: 1523322926
+      level 2 entrance rooftop_7: 1658108182
+      level 2 entrance rooftop_8: -1226805044
+      level 2 entrance rooftop_9: 1547499481
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
