@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 7741065605725808336}
   - component: {fileID: 3371659129244053211}
   - component: {fileID: 4319699465879463695}
-  - component: {fileID: 8273216376773598017}
   - component: {fileID: 4988418575147803922}
+  - component: {fileID: -7501102019498606011}
   m_Layer: 0
   m_Name: Player Bullets
   m_TagString: Player Bullet
@@ -114,8 +114,21 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!60 &8273216376773598017
-PolygonCollider2D:
+--- !u!114 &4988418575147803922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6737360954235947119}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ce9103f2eb170e489849a3578ca15d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerUsed: 1
+--- !u!61 &-7501102019498606011
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -156,31 +169,6 @@ PolygonCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.04028183, y: 0.02020847}
-      - {x: -0.04027992, y: -0.02983044}
-      - {x: 0.04, y: -0.030057356}
-      - {x: 0.04018402, y: -0.0200032}
-      - {x: 0.049966812, y: -0.019936144}
-      - {x: 0.05007744, y: -0.0102285445}
-      - {x: 0.060296133, y: -0.0102201495}
-      - {x: 0.06018646, y: -0.00033020973}
-      - {x: 0.05012226, y: 0.00014322996}
-      - {x: 0.049948692, y: 0.009867057}
-      - {x: 0.040037155, y: 0.010185495}
-      - {x: 0.039989278, y: 0.020047627}
-  m_UseDelaunayMesh: 0
---- !u!114 &4988418575147803922
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6737360954235947119}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9ce9103f2eb170e489849a3578ca15d1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerUsed: 1
+  serializedVersion: 2
+  m_Size: {x: 0.32, y: 0.32}
+  m_EdgeRadius: 0
