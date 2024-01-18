@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 7730304713236069650}
   - component: {fileID: 1023721046464097865}
   m_Layer: 0
-  m_Name: Mafia
+  m_Name: Ammo Mafia
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
