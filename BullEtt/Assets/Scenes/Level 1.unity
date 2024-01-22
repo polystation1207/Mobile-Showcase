@@ -138190,6 +138190,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: Universal UI
       objectReference: {fileID: 0}
+    - target: {fileID: 1015707022901261922, guid: c037b648d88ef22498b1cfa9676b29ce, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1015707022901261922, guid: c037b648d88ef22498b1cfa9676b29ce, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1015707022901261922, guid: c037b648d88ef22498b1cfa9676b29ce, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1015707022901261922, guid: c037b648d88ef22498b1cfa9676b29ce, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1015707022901261922, guid: c037b648d88ef22498b1cfa9676b29ce, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -767
+      objectReference: {fileID: 0}
+    - target: {fileID: 1015707022901261922, guid: c037b648d88ef22498b1cfa9676b29ce, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 28
+      objectReference: {fileID: 0}
     - target: {fileID: 4278209258761031081, guid: c037b648d88ef22498b1cfa9676b29ce, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -138449,6 +138473,10 @@ PrefabInstance:
       propertyPath: mobileCanvas
       value: 
       objectReference: {fileID: 643926841}
+    - target: {fileID: 3205540137672992136, guid: 41ffd08b6a7dfe4458f70279b11e5e62, type: 3}
+      propertyPath: allowKeyControls
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3796272408404769466, guid: 41ffd08b6a7dfe4458f70279b11e5e62, type: 3}
       propertyPath: m_LocalPosition.x
       value: -16.55
@@ -138493,6 +138521,10 @@ PrefabInstance:
       propertyPath: myText
       value: 
       objectReference: {fileID: 328179751}
+    - target: {fileID: 6259912283026079755, guid: 41ffd08b6a7dfe4458f70279b11e5e62, type: 3}
+      propertyPath: bulletCount
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 7410460412013801533, guid: 41ffd08b6a7dfe4458f70279b11e5e62, type: 3}
       propertyPath: m_Name
       value: Player
